@@ -14,12 +14,10 @@ File Renamer CLI is a command-line tool designed to batch rename files within a 
 
 ## Installation
 
-To install the File Renamer CLI, clone the repository and ensure you have Node.js installed:
+To install the File Renamer CLI, use npm:
 
 ```bash
-git clone https://github.com/yourusername/file-renamer-cli.git
-cd file-renamer-cli
-npm install
+npm install -g file-renamer-cli
 ```
 
 ## Usage
@@ -27,7 +25,7 @@ npm install
 To use the File Renamer CLI, run the following command:
 
 ```bash
-node rename.js -d <directory> [-p <prefix>] [-s <suffix>] [--dry-run]
+rn -d <directory> [-p <prefix>] [-s <suffix>] [--dry-run]
 ```
 
 ### Options
@@ -42,13 +40,13 @@ node rename.js -d <directory> [-p <prefix>] [-s <suffix>] [--dry-run]
 Rename files in a directory with a prefix:
 
 ```bash
-node rename.js -d /path/to/directory -p "new_"
+rn -d /path/to/directory -p "new_"
 ```
 
 Rename files in a directory with a suffix and preview changes:
 
 ```bash
-node rename.js -d /path/to/directory -s "_backup" --dry-run
+rn -d /path/to/directory -s "_backup" --dry-run
 ```
 
 ## License

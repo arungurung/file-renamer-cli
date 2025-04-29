@@ -2,9 +2,9 @@
   "name": "file-renamer-cli",
   "version": "1.0.0",
   "description": "A command-line tool to batch rename files with prefix and suffix.",
-  "main": "index.js",
+  "main": "rename.js",
   "bin": {
-    "rename-batch": "rename.js"
+    "rn": "rename.js"
   },
   "keywords": [
     "file-renamer",
